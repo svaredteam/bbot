@@ -51,6 +51,7 @@ class legba(BaseModule):
         "postgresql_wordlist": "Wordlist URL for PostgreSQL combined username:password wordlist, newline separated",
         "concurrency": "Number of concurrent workers, gets overridden for SSH",
         "rate_limit": "Limit the number of requests per second, gets overridden for SSH",
+        "version": "legba version",
     }
 
     deps_ansible = [
